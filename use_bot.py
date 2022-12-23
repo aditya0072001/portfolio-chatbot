@@ -11,6 +11,10 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from sklearn.preprocessing import LabelEncoder
 from fastapi import FastAPI, Request
+from pydantic import BaseModel
+
+class Bot(BaseModel):
+    input : str
 
 bot = FastAPI()
 
@@ -31,7 +35,7 @@ def clean_sentence(sentence):
 
 
 @bot.post("/getResponse")
-async def getRnformation(info : Request):
+async def getRnformation(bot : Request):
     with open('intent.json') as content:
         data1 = json.load(content)
 
@@ -47,7 +51,7 @@ async def getRnformation(info : Request):
 
     input_shape = 8
     texts_p = []
-    req_info = await info.json()
+    req_info = await bot.json()
     prediction_input = clean_sentence(req_info["input"])
     
 
