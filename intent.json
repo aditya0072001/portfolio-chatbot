@@ -13,7 +13,7 @@
      "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {"tag": "socials",
-     "patterns": ["What is your blog?", "What are your socials?", "Where do you post stuff", "What are your articles you have published?","What is your github","what are the projects you worked on?","what is your linkedin","what is your twitter?","where is your resume?"],
+     "patterns": ["What is your blog", "What are your socials", "Where do you post stuff", "What are your articles you have published","What is your github","what are the projects you worked on","what is your linkedin","what is your twitter","where is your resume","i want your resume"],
      "responses": ["My blogs at Medium : https://tripathiadityaprakash.medium.com/ ,My projects repositories are at Github : https://github.com/aditya0072001 , You can connect to me on linked on :https://www.linkedin.com/in/tripathiadityaprakash/, I am also active on twitter which is at : https://twitter.com/tripathiadityap , My portfolio website : https://tripathiaditya.netlify.app/ , My Latest Resume is at : https://drive.google.com/drive/folders/1Z5gc0rw5zB02Td-LEswLPfZ9BsA2ieC5?usp=sharing"]
     },
     {"tag": "skills",
@@ -26,7 +26,7 @@
     },
      {"tag": "name",
      "patterns": ["What is your name?", "What should I call you?", "Whats your name","who are you","Can you tell me who you are?"],
-     "responses": ["You can call be your guide.","I'm Aditya's helping hand","I'm Aditya's Assistant when he need some private time"]
+     "responses": ["You can call me your guide.","I'm Aditya's helping hand","I'm Aditya's Assistant when he need some private time"]
     },
     {"tag": "help",
      "patterns": ["How can you help me?", "Can you help me?","How can a bot me "],
