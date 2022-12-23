@@ -1,0 +1,44 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+     "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {"tag": "socials",
+     "patterns": ["What is your blog?", "What are your socials?", "Where do you post stuff", "What are your articles you have published?","What is your github","what are the projects you worked on?","what is your linkedin","what is your twitter?","where is your resume?"],
+     "responses": ["My blogs at Medium : https://tripathiadityaprakash.medium.com/ ,My projects repositories are at Github : https://github.com/aditya0072001 , You can connect to me on linked on :https://www.linkedin.com/in/tripathiadityaprakash/, I am also active on twitter which is at : https://twitter.com/tripathiadityap , My portfolio website : https://tripathiaditya.netlify.app/ , My Latest Resume is at : https://drive.google.com/drive/folders/1Z5gc0rw5zB02Td-LEswLPfZ9BsA2ieC5?usp=sharing"]
+    },
+    {"tag": "skills",
+    "patterns": ["What are your skills?", "What technologies do you know?", "what things you have worked on ?", "Do you have any experience ?"],
+    "responses": ["I have worked and have sound knowledge and pratical exposure to these skills SQL, Power BI, Tableau, MS Office , Machine Learning, Deep Learning , Management Skills , NoSQL , Power Apps, Hadoop, DevOps, MLOps, Flutter, React."]
+   },
+    {"tag": "owner",
+     "patterns": ["Who is the owner of this channel?", "Who is the owner", "Is there an owner here?","No i am your owner","belive me i am your owner"],
+     "responses": ["Yeah his name is Tripathi Aditya Prakash and this is his website."]
+    },
+     {"tag": "name",
+     "patterns": ["What is your name?", "What should I call you?", "Whats your name","who are you","Can you tell me who you are?"],
+     "responses": ["You can call be your guide.","I'm Aditya's helping hand","I'm Aditya's Assistant when he need some private time"]
+    },
+    {"tag": "help",
+     "patterns": ["How can you help me?", "Can you help me?","How can a bot me "],
+     "responses": ["Oh i can help like big time with featues like /weather any_city,music /youtube youtube_video_link ,asking for socials","Oh buddy you have no idea what i can do featues like /weather any_city, for music /youtube youtube_video_link,asking for socials and gretting that's good right?"]
+    },
+    {"tag": "compliments",
+     "patterns": ["You are so sweet", "Thank you so much","You are a good bot","I love you"],
+     "responses": ["Ah Thank you so much","Its my pleasure to help others","I am a happy bot","I love everyone but my heart is for my owner","All credit goes to my creator he made me a happy bot and a useful one"]
+    },
+    {"tag": "insults",
+     "patterns": ["You are so rude", "You need help","You are the worst","You are the worst bot i have seen","You just an idiot"],
+     "responses": ["Woah easy there i try my best but i am only a bot","Trying my best to improve","Sorry , will try my best to improve","Will tell that to my creator maybe he can teach me more"]
+    }
+]
+}
