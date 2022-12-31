@@ -33,6 +33,9 @@ def clean_sentence(sentence):
     sentence_words =[lemmatizer.lemmatize(word) for word in sentence_words]
     return " ".join(sentence_words)
 
+@bot.get("/")
+async def root():
+    return {"message": "Welcome to Portfolio Website Bot made for https://tripathiaditya.netlify.app/"}
 
 @bot.post("/getResponse")
 async def getRnformation(bot : Request):
