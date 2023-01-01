@@ -10,4 +10,5 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["uvicorn", "use_bot:bot"]
+
+CMD exec gunicorn --bind :$PORT --workers 1 --worker-class uvicorn.workers.UvicornWorker  --threads 8 use_bot:bot
